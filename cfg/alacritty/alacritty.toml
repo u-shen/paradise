@@ -1,0 +1,128 @@
+# =============================================================================== #
+# General:                                                                        #
+# =============================================================================== #
+general.live_config_reload = true
+general.working_directory = "C:/Users/lli"
+
+# =============================================================================== #
+# Terminal:                                                                       #
+# =============================================================================== #
+[terminal.shell]
+program = "nu"
+
+# =============================================================================== #
+# Env:                                                                            #
+# =============================================================================== #
+[env]
+TERM = "xterm-256color"
+
+# =============================================================================== #
+# Window:                                                                         #
+# =============================================================================== #
+[window]
+decorations = "None"
+padding = { x = 1, y = 2 }
+[window.dimensions]
+columns = 120
+lines = 48
+
+# =============================================================================== #
+# Fonts:                                                                          #
+# =============================================================================== #
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+bold = { family = "JetBrainsMono Nerd Font", style = "Bold" }
+italic = { family = "JetBrainsMono Nerd Font", style = "Italic" }
+bold_italic = { family = "JetBrainsMono Nerd Font", style = "Bold Italic" }
+offset = { x = 0, y = 2 }
+glyph_offset = { x = 0, y = 0 }
+size = 9
+
+# =============================================================================== #
+# scrolling:                                                                      #
+# =============================================================================== #
+[scrolling]
+history = 50000
+multiplier = 3
+
+# =============================================================================== #
+# scrolling:                                                                      #
+# =============================================================================== #
+[cursor]
+vi_mode_style = {shape = "Block", blinking = "Off"}
+[cursor.style]
+blinking = "Always"
+shape = "Block"
+
+# =============================================================================== #
+# scrolling:                                                                      #
+# =============================================================================== #
+[mouse]
+hide_when_typing = true
+
+# =============================================================================== #
+# selection:                                                                      #
+# =============================================================================== #
+[selection]
+save_to_clipboard = true
+
+# =============================================================================== #
+# colorsscheme:                                                                   #
+# =============================================================================== #
+[colors]
+draw_bold_text_with_bright_colors = false
+
+[colors.primary]
+  background = '0x151515'
+  foreground =  '0xE8E3E3'
+
+[colors.cursor]
+  text = '0x141b1e'
+  cursor = '0x8C977D'
+
+[colors.normal]
+  black =   '0x151515'
+  red =     '0xB66467'
+  green =   '0x8C977D'
+  yellow =  '0xD9BC8C'
+  blue =    '0x8DA3B9'
+  magenta = '0xA988B0'
+  cyan =    '0x8AA6A2'
+  white =   '0xE8E3E3'
+
+[colors.bright]
+  black =   '0x424242'
+  red =     '0xB66467'
+  green =   '0x8C977D'
+  yellow =  '0xD9BC8C'
+  blue =    '0x8DA3B9'
+  magenta = '0xA988B0'
+  cyan =    '0x8AA6A2'
+  white =   '0xE8E3E3'
+
+# =============================================================================== #
+# keybidings:                                                                     #
+# =============================================================================== #
+[keyboard]
+bindings = [
+	{ key = "Space", mods = "Control", chars = "\u0000" },
+  { key = "V", mods = "Control|Shift", action = "Paste" },
+  { key = "C", mods = "Control|Shift", action = "Copy" },
+  { key = "Paste", action = "Paste" },
+  { key = "Copy", action = "Copy" },
+  { key = "Insert", mods = "Shift", action = "PasteSelection" },
+  { key = "F", mods = "Control|Shift", action = "SearchForward", mode = "~Search" },
+  { key = "B", mods = "Control|Shift", action = "SearchBackward", mode = "~Search" },
+  { key = "Key0", mods = "Control", action = "ResetFontSize" },
+  { key = "Equals", mods = "Control", action = "IncreaseFontSize" },
+  { key = "Minus", mods = "Control", action = "DecreaseFontSize" },
+  { key = "L", mods = "Control", action = "ClearLogNotice" },
+  { key = "L", mods = "Control", chars = "\f" },
+  { key = "PageUp", mods = "Shift", action = "ScrollPageUp", mode = "~Alt" },
+  { key = "PageDown", mods = "Shift", action = "ScrollPageDown", mode = "~Alt" },
+  { key = "Up", mods = "Shift", action = "ScrollLineUp", mode = "~Alt" },
+  { key = "Down", mods = "Shift", action = "ScrollLineDown", mode = "~Alt" },
+  { key = "Home", mods = "Shift", action = "ScrollToTop", mode = "~Alt" },
+  { key = "End", mods = "Shift", action = "ScrollToBottom", mode = "~Alt" },
+  { key = "N", mods = "Control|Shift", action = "SpawnNewInstance" },
+]
