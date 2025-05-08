@@ -12,43 +12,51 @@
   <img src="./preview/paradise.png" width="100%" >
 </p>
 
-## Ports 
+## Ports
 
 ### Terminal
-  - Alacritty
-  - Kitty
-  - Foot
+
+- Alacritty
+- Kitty
+- Foot
 
 ### Editor
-  - Lite-xl
-  - Nvim with [Conscious](https://github.com/Manas140/Conscious), [DayDream.nvim](https://github.com/Mayooonaiselol/Daydream.nvim)
-  - Vscode with [Plugin](https://github.com/paradise-theme/vscode)
-  
+
+- Lite-xl
+- Zed
+- Nvim with [Conscious](https://github.com/Manas140/Conscious), [DayDream.nvim](https://github.com/Mayooonaiselol/Daydream.nvim)
+- Vscode with [Plugin](https://github.com/paradise-theme/vscode)
+
 ### Other
-  - Blender
-  - Dunst
-  - [Gtk](https://github.com/paradise-theme/gtk)
-  - PowerShell 
-  - Zathura
+
+- Blender
+- Dunst
+- [Gtk](https://github.com/paradise-theme/gtk)
+- PowerShell
+- Zathura
 
 ### Website
-  - [Monkeytype](https://monkeytype.com?customTheme=WyIjMTUxNTE1IiwiIzhkYTNiOSIsIiM4ZGEzYjkiLCIjNDI0MjQyIiwiIzFjMWMxYyIsIiNlOGUzZTMiLCIjYjY2NDY3IiwiI2I2NjQ2NyIsIiNiNjY0NjciLCIjYjY2NDY3Il0=)
-  - [Chess.com](https://raw.githubusercontent.com/paradise-theme/paradise/main/oth/stylus/ParadiseChess.user.css)
-  - [Learninsta.com](https://raw.githubusercontent.com/paradise-theme/paradise/main/oth/stylus/ParadiseLearnInsta.user.css)
 
+- [Monkeytype](https://monkeytype.com?customTheme=WyIjMTUxNTE1IiwiIzhkYTNiOSIsIiM4ZGEzYjkiLCIjNDI0MjQyIiwiIzFjMWMxYyIsIiNlOGUzZTMiLCIjYjY2NDY3IiwiI2I2NjQ2NyIsIiNiNjY0NjciLCIjYjY2NDY3Il0=)
+- [Chess.com](https://raw.githubusercontent.com/paradise-theme/paradise/main/oth/stylus/ParadiseChess.user.css)
+- [Learninsta.com](https://raw.githubusercontent.com/paradise-theme/paradise/main/oth/stylus/ParadiseLearnInsta.user.css)
 
 ## Installation
+
 ### Clone repo
+
 ```
 git clone https://github.com/paradise-theme/paradise.git && cd paradise
 ```
 
-#### On Linux 
+#### On Linux
+
 ```
 ./install.sh
 ```
 
 #### On Windows
+
 - Open the settings section by pressing `C+,`
 - You will see a setting button on your bottom left corner and press it
 - Your default editor will show up then scroll down to a part where it says "schemes"
